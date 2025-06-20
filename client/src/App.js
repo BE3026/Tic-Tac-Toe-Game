@@ -49,7 +49,7 @@ function App() {
         
       ) : (
         <>
-          <SignUp setIsAuth={setIsAuth} />
+          <SignUp setIsAuth={setIAuth} />
           <Login setIsAuth={setIsAuth} />
         </>
       )}
