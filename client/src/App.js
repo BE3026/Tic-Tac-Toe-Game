@@ -7,7 +7,7 @@ import Cookies from "universal-cookie";
 import { useState } from 'react';
 import JoinGame from './components/JoinGame';
 function App() {
-  const api_key="u42e4f5svqkk";
+  const api_key="";
   const cookies = new Cookies();
   const client=StreamChat.getInstance(api_key);
   const token = cookies.get("token");
